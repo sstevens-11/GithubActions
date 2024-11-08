@@ -86,9 +86,9 @@ namespace GithubActionsLab
         {
             double pow = 1;
 
-            for ( int i = 0; i < y; i++)
+            for ( int i = 0; i < double.Parse(y); i++)
             {
-                pow = pow * x;   
+                pow = pow * double.Parse(x);   
             }
             return pow; 
         }
